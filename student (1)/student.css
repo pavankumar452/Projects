@@ -1,0 +1,81 @@
+body{
+    margin-top:150px;
+    margin-left:400px;
+}
+#title {
+    color: cornsilk;
+    background-color: blue;
+    border-color: blue;
+    height: 25px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 75.4%;
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container1 {
+    display: flex;
+    justify-content: center;
+    border-right-style: groove;
+    padding: 20px;
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.form-container label {
+    text-transform: capitalize;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+.form-container input, .form-container button {
+    margin-bottom: 15px;
+}
+.form-container button {
+    background-color: blue;
+    color: aliceblue;
+    border-color: blue;
+    border-radius: 10px;
+    padding: 10px;
+}
+.group-container {
+    display: flex;
+    justify-content: space-evenly;
+    border-style: groove;
+    width: 75%;
+}
+#card{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    border-style:outset;
+    border-color:azure;
+    width: 500px;
+    height: 300px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-left: 20px;
+    line-height: 2;
+    text-align: left;
+}
+.photo{
+    background-color:blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width:200px;
+}
