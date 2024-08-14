@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Student ID</title>
+    <link rel="stylesheet" href="student.css">
+</head>
+<body>
+        <header id="title">ID Card Generator</header>
+    <div class="group-container">
+       <div class="container1">
+          <form  class="form-container">
+             <label style="color:blue;text-align: center; font-weight: bold;">Enter student details</label>
+
+             <label>Enter Name:</label>
+             <input id="name" type="text">
+
+             <label>Enter College Name:</label>
+             <input id="college_name" type="text">
+
+             <label>Enter Location:</label>
+             <input id="location" type="text">
+
+             <label>Enter Student's picture:</label>
+             <input id="image" type="file" accept="image/*" required>
+
+             <button type="button" onclick="generateCard()">Generate Card</button>
+            </form>
+        </div>
+        <div class="container2">
+           <div class="card" id="card">
+                <div class="photo" id="photo"></div>
+                <div class="content" id="content"></div>
+           </div>
+        </div>
+    </div>
+    
+  <script src="student.js"></script>
+</body>
+</html>

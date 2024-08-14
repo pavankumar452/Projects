@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock...!!!</title>
+    <link rel="stylesheet" href="Digitalclock.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Digital Clock</h1>
+        <div class="timer-display">
+           <h2 id="hr">00</h2>
+           <h2>:</h2>
+           <h2 id="min">00</h2>
+           <h2>:</h2>
+           <h2 id="sec">00</h2> 
+        </div>
+        <div class="time">
+            <h1 id="Date">00</h1>
+           <h1>/</h1>
+           <h1 id="month">00</h1>
+           <h1>/</h1>
+           <h1 id="year">00</h1> 
+        </div>
+        <div class="buttons">
+            <button onclick="start()" id="start-timer">Start</button>
+            <button onclick="stop()" id="stop-timer">stop</button>
+        </div>
+    </div>
+    <script src="Digitalclock.js"></script>
+</body>
+</html>
